@@ -1,0 +1,46 @@
+{
+  "name": "sleek-ui",
+  "version": "0.58.0",
+  "description": "a minimal terminal theme extension for Pi: bundled themes, thinking-style animations, a startup logo animation, a theme page background, selectable user-message styles, a subtle agent-message background, split-diff edit blocks, an italic icon-led animated collapsed thinking label, detail-only tool shine with a relaxed 1.6-second minimum visible loop and eased fade-out, collapsed bash commands, uniform one-line Read/Write/Skill blocks, expanded syntax-highlighted code blocks, Sleek density as the default with Extended density available, a live turn timer, an always-shown agent response footer, a focus-aware sound/desktop notification alert with a configurable method, timer and extension prompt blacklist, a 30% toggleable task/session side panel, copy-safe fullscreen message chrome, image-preview blocks below user messages with View/Save-to-Downloads actions, and customizable Sleek/Bar/Minimal status bars and user/agent message styles with a Bar (nvim statusline) variant.",
+  "type": "module",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "config.ts",
+    "ds-peak.ts",
+    "git-status.ts",
+    "render-budget.ts",
+    "side-panel.ts",
+    "subagent-activity.ts",
+    "split-diff.ts",
+    "startup-ui.ts",
+    "status-bar.ts",
+    "status-shared.ts",
+    "core",
+    "editor",
+    "menu",
+    "messages",
+    "notify",
+    "performance",
+    "theme",
+    "themes",
+    "tool-tags",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "pi-package",
+    "pi-coding-agent",
+    "pi-extension"
+  ],
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=1.1.0 <1.2.0",
+    "@earendil-works/pi-tui": ">=1.1.0 <1.2.0"
+  }
+}

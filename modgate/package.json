@@ -1,0 +1,19 @@
+{
+  "name": "modgate",
+  "version": "0.2.0",
+  "description": "Plan/Build/YOLO safety modes for Pi",
+  "type": "module",
+  "main": "index.ts",
+  "engines": { "node": ">=22.13.0" },
+  "keywords": ["pi-extension", "permissions", "plan-mode"],
+  "license": "MIT",
+  "dependencies": { "unbash": "4.0.12" },
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=1.1.0 <1.2.0",
+    "@earendil-works/pi-tui": ">=1.1.0 <1.2.0",
+    "typebox": "*"
+  }
+}
