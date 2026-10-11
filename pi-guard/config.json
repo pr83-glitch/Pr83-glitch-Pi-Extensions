@@ -1,0 +1,16 @@
+{
+  "toolRules": {
+    "plan": {
+      "ask_user_question": "allow",
+      "todo": "allow",
+      "web_crawl": "allow",
+      "web_fetch": "allow",
+      "web_screenshot": "allow",
+      "web_search": "allow",
+      "Agent": "allow",
+      "AgentStatus": "allow",
+      "StopAgent": "allow",
+      "url_context": "allow"
+    }
+  }
+}
