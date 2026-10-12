@@ -2,6 +2,8 @@
 
 Make Pi feel more like your workspace. Sleek brings a calmer, more personal look to Pi’s terminal interface, with thoughtful themes, clearer tool previews, and useful session details—all in one extension.
 
+![Sleek UI demo](../Assets/pi-sleek-demo.gif)
+
 ![license](https://img.shields.io/badge/license-MIT-blue)
 ![version](https://img.shields.io/badge/version-0.58.0-blue)
 ![pi](https://img.shields.io/badge/pi-%3E%3D1.1-%3C1.2-7aa2f7)

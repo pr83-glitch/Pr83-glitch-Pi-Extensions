@@ -5,6 +5,9 @@ A collection of custom extensions for [Pi](https://github.com/earendil-works/pi)
 ## The extensions
 
 ### [sleek-ui](./sleek-ui/README.md)
+
+![Sleek UI demo](./Assets/pi-sleek-demo.gif)
+
 A full UI enhancement for Pi, with bundled themes, user and assistant message styles, animated thinking and tool indicators, status-bar layouts, notifications, image previews, cleaner fullscreen text selection, and a task/agent side panel. The side panel displays task and delegated-agent information from compatible tools; it does not provide those tools itself. Open `/sleek` in Pi to browse its settings.
 
 ### [edit-message](./edit-message/README.md)
